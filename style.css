@@ -12,12 +12,22 @@ header, nav, aside, article, footer, section, main, figure, figcaption {
 body {
 	font-family: sans-serif;
 }
+
+.lb-data .lb-caption {
+    font-size: 3.8rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1em;
+    font-family: 'Dancing Script', cursive;
+  }
+
 .container {
 	  	margin: auto;
 			width: 100%;
 			max-width: 1000px;
 			padding-bottom: 20px;
 }
+
 
 .figure1 {
 	float: left;

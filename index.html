@@ -3,6 +3,7 @@
 <head>
 <title>Womenville</title>
   <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="lightbox/src/css/lightbox.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="js/html5shiv-printshiv.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -79,7 +80,7 @@
         <div class="col1">
 
         <figure><h1>
-        <img src="img/pic1.PNG" alt="Hush" title="Hush"></h1>
+      <a href="img/pic1.PNG" data-lightbox="image-1" data-title="Relationship Advice">  <img src="img/pic1.PNG" alt="Hush" title="Hush"></a></h1>
         </figure>
 
         <figcaption><h1>Relationship Advice</h1></figcaption>
@@ -91,20 +92,22 @@ You will have some friends and family members encouraging you to immediately sta
 
 <div class="col2">
      <figure>
-     <h1><img src="img/pic2.PNG" alt="Kids" title="Kids"></h1>
+     <h1><a href="img/pic2.PNG" data-lightbox="image-1" data-title="Kids Crafts"><img src="img/pic2.PNG" alt="Kids" title="Kids"></a></h1>
      </figure>
 
      <figcaption><h1>Kids Crafts</h1></figcaption>
      <p>As the spring approaches and the temperatures slowly rise, the time to become creative has arrived. So with these amazing spring crafts for kids, kick start your spring holidays with these wonderful ideas for all ages which will spark your imagination. <a href="kids.html"> Read more...</a></p>
 </div>
 <div class="col3"><figure>
-<h1><img src="img/pic3.PNG" alt="Makeup" title="Makeup"></h1>
+<h1><a href="img/pic3.PNG" data-lightbox="image-1" data-title="Lipstick Trends"><img src="img/pic3.PNG" alt="Makeup" title="Makeup"></a></h1>
 </figure>
 
 <figcaption><h1>Lipstick Trends</h1></figcaption>
 <p>You know how much lipstick can change your outlook. It is the single most vital makeup component that holds the power to change the game. It alone can dramatically enhance your features and alter your overall look.<a href="lipstick.html"> Read more...</a></p>
 </div>
 </div>
+
+
 
           <div style="clear:both"></div>
 
@@ -126,5 +129,6 @@ You will have some friends and family members encouraging you to immediately sta
    </div>
 
 <script src="js/hamburger.js"></script>
+<script src="lightbox/src/js/lightbox.js"></script>
  </body>
  </html>
