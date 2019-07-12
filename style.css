@@ -1,0 +1,367 @@
+header, nav, aside, article, footer, section, main, figure, figcaption {
+
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0'
+  border: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+.container {
+	  	margin: auto;
+			width: 100%;
+			max-width: 1000px;
+			padding-bottom: 20px;
+}
+
+.figure1 {
+	float: left;
+}
+
+.desktop-menu {
+	display: none;
+}
+
+
+/* -------HAMBURGER MENU STYLES----*/
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+/* -------end HAMBURGER MENU STYLES---- */
+
+nav {
+       font-family: 'Philosopher', sans-serif;
+			 font-weight: bold;
+			 padding: 60px 0px;
+    line-height: 35px;
+    float: right;
+	}
+
+	.banner {
+	 width:100%;
+	 height:23%;
+	 background-image:url(img/banner.jpg);
+	}
+
+
+	.banner-content {
+			font-family: 'Dancing Script', cursive;
+		  color: #AE56A2;
+	    width: 50%;
+	    padding: 130px 40px;
+	    font-size: 1.8rem;
+	    line-height: 30px;
+	}
+	.banner-content h2 {
+	   padding:7px 0px;
+		 color: #D364A8;
+	}
+
+	.content {
+   display: block;
+    width: 100%;
+
+}
+.content .columnone {
+	text-align: center;
+    padding: 40px 0px;
+    width: 50%;
+    float: left;
+}
+.content p {
+	text-align: left;
+	padding: 20px 20px;
+}
+
+.content .columntwo {
+	text-align: center;
+    padding: 40px 0px;
+    width: 50%;
+    float: right;
+}
+
+.columnone h1, .columntwo h1 {
+color: #7B499E;
+font-family: 'Tangerine', cursive;
+font-size: 3.0rem;
+
+}
+
+.columnone p, .columntwo p {
+font-family: 'Roboto', sans-serif;
+}
+
+.feature-art {
+	background-color: #CFABEA;
+	    color: white;
+    padding: 0px 25px;
+
+}
+
+.feature-art h1 {
+	color: #ffffff
+ 	text-align:center;
+	font-family: 'Tangerine', cursive;
+	font-size: 3.0rem;
+}
+
+.feature-art , p {
+    padding: 10px 10px;
+}
+		.feature-art {
+		width: 100%;
+		padding: 20px 0px;
+	text-align:center;
+}
+.feature-art a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+		color: #ffffff
+}
+
+
+.threecolumn {
+	display: block;
+			 width: 100%;
+			 text-align:center;
+			 padding:20px 0px;
+}
+.threecolumn h1 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.col1 {
+	float: left;
+	width: 33%;
+	padding: 20px 0px;
+}
+
+.col2 {
+	float: left;
+		width: 33%;
+			padding: 20px 0px;
+}
+
+.col3 {
+	float: right;
+		width: 33%;
+			padding: 20px 0px;
+}
+
+figcaption h1 {
+color: #7B499E;
+font-family: 'Tangerine', cursive;
+font-size: 3.0rem;
+text-align: center;
+}
+
+.col1, .col2, .col3 p {
+font-family: 'Roboto', sans-serif;
+text-align: left;
+
+}
+
+footer {
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.8rem;
+ color: #D364A8;
+ text-align: center;
+	width: 100%;
+	background: #FCF574;
+	padding: 20px opx;
+}
+
+.three-col-content {
+	display:block;
+	 width: 100%;
+	 text-align:center;
+}
+
+.footercol {
+	   width: 33.3333%;
+		 float: left;
+		 background: #FCF574;
+		 display: block;
+}
+footer p {
+	 color: #AE56A2;
+}
+
+/* ------- START MEDIA 550px MEDIA QUERY--- */
+@media (max-width: 550px) {
+
+
+.col1 {
+
+	width: 100%;
+	padding: 20px 10px;
+}
+
+.col2 {
+	float: right;
+		width: 100%;
+			padding: 20px 10px;
+}
+
+.col3 {
+
+		width: 100%;
+			padding: 20px 0px;
+}
+
+
+}
+
+/* ------- END MEDIA 550px MEDIA QUERY--- */
+
+
+/* ------- START MEDIA 821px MEDIA QUERY--- */
+@media (max-width: 821px) {
+
+
+.content .columnone {
+	float: none;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.content .columntwo {
+	float: none;
+		width: 100%;
+			padding: 10px 0;
+}
+
+
+}
+
+/* ------- END MEDIA 821px MEDIA QUERY--- */
+
+
+/* ------- START MEDIA 960px MEDIA QUERY--- */
+@media (max-width: 960px) {
+
+
+.three-col-content .footercol {
+	float: none;
+	width: 100%;
+	padding: 20px 20px;
+}
+
+}
+
+/* ------- END MEDIA 960px MEDIA QUERY--- */
+
+
+
+/* ------- START MEDIA 990px MEDIA QUERY--- */
+@media (max-width: 990px) {
+
+
+
+.col1 {
+	float: left;
+	width: 50%;
+	padding: 20px 0px;
+}
+
+.col2 {
+	float: left;
+		width: 50%;
+			padding: 20px 0px;
+}
+
+.col3 {
+	float: right;
+		width: 100%;
+			padding: 20px 0px;
+}
+
+}
+
+/* ------- END MEDIA 990px MEDIA QUERY--- */
+
+/* ------- START MEDIA 900px MEDIA QUERY--- */
+@media (max-width: 900px) {
+
+
+.col1 {
+	float: none;
+	width: 100%;
+	padding: 20px 20px;
+}
+
+.col2 {
+	float: none;
+		width: 100%;
+			padding: 20px 20px;
+}
+
+.col3 {
+	float: right;
+		width: 100%;
+			padding: 20px 0px;
+}
+
+
+}
+
+/* ------- END MEDIA 900px MEDIA QUERY--- */
+
+/* ------- START MEDIA 1060px MEDIA QUERY--- */
+@media (min-width: 1060px) {
+
+
+	.menu, .hamburger, .cross {
+		display: none;
+	}
+
+
+  	.desktop-menu {
+  		display: inline;
+  		list-style-type: none;
+  		padding: 5%;
+	}
+}
+
+/* ------- END MEDIA 1060px MEDIA QUERY--- */
