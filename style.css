@@ -86,6 +86,7 @@ nav {
        font-family: 'Philosopher', sans-serif;
 			 font-weight: bold;
 			 padding: 60px 0px;
+       font-size: 1.3rem;
     line-height: 35px;
     float: right;
 	}
@@ -221,7 +222,7 @@ font-family: 'Roboto', sans-serif;
 	font-size: 3.0rem;
 }
 
-.feature-blog , p {
+.feature-blog p {
     padding: 10px 10px;
 }
 		.feature-blog {
@@ -235,10 +236,28 @@ font-family: 'Roboto', sans-serif;
 		color: #ffffff
 }
 
+.content .featured h1 {
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 3.0rem;
+}
 
+.featured h1 img {
+  width: 65%;
+}
 
+.content .featured ul li h2 {
+	color: #7B499E;
+	font-family: 'Tangerine', cursive;
+	font-size: 2.0rem;
+}
 
-
+.content .featured h3 {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Tangerine', cursive;
+  font-size: 3.0rem;
+}
 .threecolumn {
 	display: block;
 			 width: 100%;
@@ -387,6 +406,7 @@ footer p {
 .columnblog2 h1 {
 font-size: 2.2rem;
 }
+
 
 
 
