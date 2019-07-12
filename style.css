@@ -208,6 +208,31 @@ font-family: 'Roboto', sans-serif;
 
 
 
+
+
+
+
+
+
+.feature-about {
+	background-color: #F1B4D3;
+	    color: #5A4B9E;
+    padding: 0px 25px;
+    width: 100%;
+    padding: 20px 0px;
+  text-align:center;
+
+}
+
+.feature-about h1 {
+	color: #ffffff
+ 	text-align:center;
+	font-family: 'Tangerine', cursive;
+	font-size: 3.0rem;
+}
+
+
+
 .feature-blog {
 	background-color: #F1B4D3;
 	    color: #5A4B9E;
