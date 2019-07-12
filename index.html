@@ -13,6 +13,9 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 
+<link rel="stylesheet" href="notus-master/src/notus.css" media="screen" charset="utf-8">
+<script type="text/javascript" src="notus-master/src/notus.js"></script>
+
 </head>
 
 <body>
@@ -128,6 +131,17 @@ You will have some friends and family members encouraging you to immediately sta
 
    </div>
 
+   <script type="text/javascript">
+  var myNotus = notus();
+</script>
+   <script type="text/javascript">
+     myNotus.send({
+       notusType: 'popup',
+       notusPosition: 'top-left',
+       title: 'Welcome Friends',
+       message: 'Hello from Womenville!'
+     });
+   </script>
 <script src="js/hamburger.js"></script>
 <script src="lightbox/src/js/lightbox.js"></script>
  </body>
