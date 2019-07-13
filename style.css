@@ -5,11 +5,9 @@ header, nav, aside, article, footer, section, main, figure, figcaption {
 
 * {
   margin: 0;
-  padding: 0'
+  padding: 0;
   border: 0;
 }
-
-
 body {
 	font-family: sans-serif;
 }
@@ -109,7 +107,7 @@ nav {
 	.banner-content h2 {
 	   padding:7px 0px;
 		 color: #D364A8;
-	}10
+	}
 
 	.content {
    display: block;
@@ -186,8 +184,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 .feature-art h1 {
-	color: #ffffff
- 	text-align:center;
+	color: #ffffff;
+ 	text-align: center;
 	font-family: 'Tangerine', cursive;
 	font-size: 3.0rem;
 }
@@ -225,7 +223,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .feature-about h1 {
-	color: #ffffff
+	color: #ffffff;
  	text-align:center;
 	font-family: 'Tangerine', cursive;
 	font-size: 3.0rem;
@@ -241,7 +239,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .feature-blog h1 {
-	color: #ffffff
+	color: #ffffff;
  	text-align:center;
 	font-family: 'Tangerine', cursive;
 	font-size: 3.0rem;
@@ -331,7 +329,7 @@ footer {
  text-align: center;
 	width: 100%;
 	background: #FCF574;
-	padding: 20px opx;
+	padding: 20px 0px;
 }
 
 .three-col-content {
